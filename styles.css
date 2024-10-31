@@ -1,0 +1,56 @@
+body {
+    /* background-color: powderblue; */
+    display: flex;
+    flex-direction: column;
+}
+
+#landing {
+    background-image: url('5-4-Template-22Flash_04.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    height:  90vh; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#landing h2{
+    padding-right: 50px ;
+    /* padding-bottom: 200px; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#landing h1{
+    padding-right: 50px ;
+    padding-bottom: 150px;
+}
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+#about {
+    margin: 80px;
+    text-align: center;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    margin: 0 80px; 
+    
+
+}
+#imageholder{
+    display: inline-block;
+}
+
+#imageholder img{
+    width: 100%;
+    height: 100%;
+}
